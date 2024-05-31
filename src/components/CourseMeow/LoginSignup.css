@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    background: linear-gradient(rgb(17, 138, 17),rgb(18, 139, 205) );
+   
+}
+
+.top {
+    display: flex;
+    height:140px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+    width: 400px;
+    background: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text {
+    color: #78018f;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 61px;
+    height: 6px;
+    background: #78018f;
+    border-radius: 9px;
+}
+
+.inputs {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 320px;
+    height: 40px;
+    background: rgb(197, 197, 197);
+    border-radius: 6px;
+}
+
+.input img {
+    margin: 0px 15px;
+}
+
+.input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 14px;
+}
+
+.forgot-password {
+    padding-left: 62px;
+    margin-top: 26px;
+    color: #797979;
+    font-size: 12px;
+}
+
+.forgot-password span {
+    color: #78018f;
+    cursor: pointer;
+}
+
+.submit-container {
+    display: flex;
+    gap: 40px;
+    margin: 25px auto;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    background: #78018f;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray {
+    background: #eaeaea;
+    color: #676767;
+}
+
+.name-icon, .password-icon, .email-icon {
+    height: 22px;
+    width: auto;
+}
+
+.cat-icon {
+    height: 100px;
+    width: auto;
+}
+
+.enter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    background: rgb(0, 96, 0);
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
